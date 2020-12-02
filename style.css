@@ -1,0 +1,487 @@
+/*---------------------------------------
+    general     
+-----------------------------------------*/
+
+body{
+  position: relative;
+  background-color: #ffffff;
+  font-size: 1em;
+  overflow-x: hidden;
+  font-family: 'Karla', sans-serif;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+/*-------------------------------------
+    navigation bar          
+-----------------------------------------*/
+.navbar{
+  color: #1f1f1f; 
+  padding-top: 1em;
+  padding-bottom: 1em; 
+}
+
+
+.nav-link, .navbar-brand{
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link{
+  margin-left: 1em !important;
+}
+
+.nav-item-active{
+  text-decoration: underline; /*current link*/
+}
+
+.navbar-brand{
+  font-family: 'DM Serif Text', serif;
+  font-size: 25px;
+}
+
+.navbar-brand:hover{
+  color: inherit; 
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.nav-link:hover {
+  color: #cc8800;
+}
+
+.icon-bar {
+  width: 22px; 
+  height: 2px;
+  background-color: #B6B6B6;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+ 
+ /*collpased navbar transformations*/
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+/*---------------------------------------
+  introduction        
+-----------------------------------------*/
+
+
+#intro{
+  background: #ECECEC; 
+  position: relative;
+}
+
+#intro-text{
+  margin-top: 20%; /*space for navbar*/
+  margin-bottom: 20%;
+}
+
+#intro-text h1{
+  font-family: 'DM Serif Text', serif;
+}
+
+
+#portfolio-link{ /*link to work below*/
+  color: #1f1f1f;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 15%;
+}
+
+#portfolio-link:hover{
+  color: #cc8800;
+}
+
+#drawing{
+  padding-top: 15%;
+}
+
+#flower-decor{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+/*---------------------------------------
+  portfolio        
+-----------------------------------------*/
+
+
+.portfolio{
+  float:center;
+  padding-top: 15%;
+}
+
+.projtitle{ /*all project links*/
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.projtitle:hover{ /*remove default link decoration*/
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+/*colored underlines for titles*/
+#buntitle{ 
+  border-bottom: 8px solid #cfdbc5;
+  width: 230px;
+}
+
+/*swipe to top animation color*/
+#buntitle.hvr-sweep-to-top:before{
+  background: #cfdbc5;
+}
+
+/*colored underlines for titles*/
+#fttitle{
+  border-bottom: 8px solid #EDE8F7;
+  width: 325px;
+}
+
+/*swipe to top animation color*/
+#fttitle.hvr-sweep-to-top:before{
+  background: #EDE8F7;
+}
+
+/*colored underlines for titles*/
+#schooltitle{
+  border-bottom: 8px solid #f3d7ca;
+  width: 200px;
+}
+
+/*swipe to top animation color*/
+#schooltitle.hvr-sweep-to-top:before{
+  background: #f3d7ca;
+}
+
+/*colored underlines for titles*/
+#vuititle{
+  border-bottom: 8px solid #f0f5fa;
+  width: 270px;
+}
+
+/*swipe to top animation color*/
+#vuititle.hvr-sweep-to-top:before{
+  background: #f0f5fa;
+}
+
+/*project description*/
+.proj-desc{
+  margin-top: 6%;
+}
+
+.proj-desc h3{
+  font-family: 'DM Serif Text', serif;
+}
+
+/*view project link*/
+.proj-link{
+  text-decoration: underline;
+}
+
+#portfolio-section{
+  margin: auto;
+}
+
+/*---------------------------------------
+  about me       
+------------------------------------------*/
+
+#about-me{
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+#about-img{
+  width: 90%;
+}
+
+#about-text{
+  padding-left: 15%;
+}
+
+/*---------------------------------------
+ play       
+-----------------------------------------*/
+
+/*header of play page*/
+#play-intro{
+  background: #ECECEC;
+}
+
+/*text in header*/
+#play-text{
+  padding-top: 5%;
+  width: 50%; 
+}
+
+#play-text h1{
+  font-family: 'DM Serif Text', serif;
+}
+
+/*flower image in header*/
+#flower-decor-play{
+  padding-top: 3%;
+}
+
+/*margin of gallery*/
+#gallery{
+  margin-top: 5%;
+}
+
+/*padding between images*/
+#gallery img{
+  margin: 5%;
+  width: 90%;
+}
+
+/*---------------------------------------
+resume       
+-----------------------------------------*/
+
+#resume-req{
+  padding-top: 10%;
+  padding-bottom: 25%;
+}
+
+/*email link*/
+.email{
+  color: #cc8800;
+}
+
+.email:hover{
+  color: #cc8800;
+}
+
+#resume-footer{
+  position: fixed;
+}
+
+
+
+/*---------------------------------------
+projects      
+-----------------------------------------*/
+
+.content-title{
+  padding-top: 75px;
+  padding-bottom: 50px;
+  line-height: 20px;
+}
+ 
+ .content-title h2{
+  font-family: 'DM Serif Text', serif;
+}
+
+.content-details{
+  padding-top: 75px;
+}
+
+.content-details h4, h5{
+  font-family: 'DM Serif Text', serif;
+}
+
+.content-details a{
+  text-decoration: none;
+  color: #cc8800;
+}
+
+.content-details p{
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.subcontent-details{
+  padding-top: 35px;
+}
+
+.subcontent-details h5{
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+}
+
+.subcontent-details p{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.content-img{
+  padding-top: 8px;
+}
+
+.content-img img{
+  max-width: 100%;
+}
+
+.top-bullet{
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+#poster{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+/*---------------------------------------
+ footer        
+-----------------------------------------*/
+
+.footer{
+  font-size: 1em;
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;
+}
+
+.fa{
+  text-align: center;
+  font-size: 20px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: #cc8800;
+}
+
+/*---------------------------------------
+ animations 
+ credit to https://ianlunn.github.io/Hover/      
+-----------------------------------------*/
+
+/* Sweep To Top Animation*/
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+/* Icon Forward Animation*/
+.hvr-icon-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+
+.hvr-icon-forward .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-icon-forward:hover .hvr-icon, .hvr-icon-forward:focus .hvr-icon, .hvr-icon-forward:active .hvr-icon {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
+
+/* Underline From Left Animation */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #cc8800;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
