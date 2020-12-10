@@ -14,6 +14,9 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
  <!-- NAVBAR -->
@@ -76,6 +79,12 @@
         <div id="tilesContainer"></div>
       </div>
     </div>
+
+<!-- Initialize Animation -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 <!-- Footer -->
@@ -94,7 +103,7 @@
 </footer>
 </html>
 
-
+<!-- Bookshelf JS -->
 <script type="text/javascript">
   document.getElementById("outer3").addEventListener("click", toggleState3);
     
@@ -196,3 +205,4 @@ document.addEventListener('keyup',function(e){
 
 loadGallery();
 </script>
+
