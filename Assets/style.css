@@ -568,3 +568,68 @@ bookshelf
   z-index: 1;
   box-sizing: border-box;
 }
+
+/*---------------------------------------
+projects      
+-----------------------------------------*/
+
+.content-title{
+  padding-top: 75px;
+  padding-bottom: 50px;
+  line-height: 20px;
+}
+ 
+ .content-title h2{
+  font-family: 'DM Serif Text', serif;
+}
+
+.content-details{
+  padding-top: 75px;
+}
+
+.content-details h4, h5{
+  font-family: 'DM Serif Text', serif;
+}
+
+.content-details a{
+  text-decoration: none;
+  color: #cc8800;
+}
+
+.content-details p{
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.subcontent-details{
+  padding-top: 35px;
+}
+
+.subcontent-details h5{
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+}
+
+.subcontent-details p{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.content-img{
+  padding-top: 8px;
+}
+
+.content-img img{
+  max-width: 100%;
+}
+
+.top-bullet{
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+#poster{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
